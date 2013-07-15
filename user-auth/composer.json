@@ -1,0 +1,22 @@
+{
+    "name": "charles/user-auth",
+    "description": "A user registration and login module",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Charles Griffin",
+            "email": "cegrif01@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Charles\\UserAuthenticator": "src/"
+
+        }
+    },
+    "minimum-stability": "dev"
+}
